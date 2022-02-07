@@ -206,3 +206,71 @@
     color: white;
     transition: all 0.25s;
 }
+
+.registro{
+    background-color:black;
+    color:rgb(68, 231, 68);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.registro-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: auto;
+    padding: 0 2rem;
+    max-width: 800px;
+}
+
+.registro__title{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.registro__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.registro__form-input{
+    border: 0.2rem solid black;
+    border-radius: 12px;
+    padding: 0.8rem;
+    outline: none;
+    width: 100%;
+    transition: all 0.5s;
+}
+  
+.registro__form-input:hover{
+    border: 0.25rem solid rgb(219, 17, 219);
+}
+  
+.registro__form-input:focus{
+    border: 0.25rem solid #282c34;
+}
+  
+.registro__form-input::placeholder{
+    color: #101113;
+}
+
+.registro__form-button{
+    border-radius: 0.5rem;
+    background-color:rgb(68, 231, 68);
+    border: 0.1rem solid black;
+    color: black;
+    width: 10rem;
+    height: 2rem;
+    align-self: center;
+    transition: all 0.5s;
+}
+
+.registro__form-button:hover{
+    background-color:white;
+}
+
+.registro__aditional-text{
+    color: white;
+}
