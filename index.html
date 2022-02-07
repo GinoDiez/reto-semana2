@@ -115,6 +115,27 @@
                 </div>
             </div>
         </section>
+
+        <section class="registro" id="registro">
+            <div class="registro-container">
+                <h2 class="registro__title">Registrate y disfruta de la mejor música</h2>
+                <form action="/" class="registro__form">
+                    <input type="text" id="nombre" placeholder="Nombre Completo" name="nombre" class="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+                    <br/>
+                    <input type="text" id="apellido" placeholder="Apellido Completo" name="apellido" class="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+                    <br/>
+                    <input type="text" id="email" placeholder="Email" name="email" class="registro__form-input" required />
+                    <br/>
+                    <input type="number" id="celular" placeholder="Celular" name="celular" class="registro__form-input" min="900000000" max="999999999" required />
+                    <br/>
+                    <button class="registro__form-button">Registrar</button>
+                </form>
+            </div>
+            <p class="registro__aditional-text">Desarrollado por Gino Diez &copy; 2022</p>
+        </section>
+        
     </main>
 </body>
 </html>
