@@ -148,3 +148,61 @@
 .géneros__image-image:hover{
     transform: scale(1.15);
 }
+
+.populares{
+    background-color:rgb(68, 231, 68);
+}
+
+.populares-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.populares__title{
+    color: black;
+    text-align: center;
+}
+
+.populares__populares-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.populares__popular{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:rgb(68, 231, 68);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    gap: 0.8rem;
+}
+
+.populares__song{
+    margin: 0;
+}
+
+.populares__authors{
+    margin: 0;
+}
+
+.populares__song-link{
+    background-color:rgb(219, 17, 219);
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 0.5rem 0.8rem;
+}
+
+.populares__link-link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.25s;
+}
