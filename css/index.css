@@ -56,3 +56,7 @@
 .header-nav__link:hover{
     color: white;
 }
+
+.main{
+    background-color:rgb(68, 231, 68);
+}
