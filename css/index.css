@@ -104,3 +104,47 @@
     margin-bottom: 1.5rem;
     width: 100%;
 }
+
+.géneros{
+    background-color: black;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.géneros__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+.géneros__title{
+    color: rgb(68, 231, 68);
+    margin: 0;
+}
+
+.géneros__image-list{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 2.6rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.géneros__image-container{
+    max-width: 200px;
+}
+
+.géneros__image-image{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem 0 rgb(219, 17, 219);
+    transition: all 0.5s;
+}
+
+.géneros__image-image:hover{
+    transform: scale(1.15);
+}
