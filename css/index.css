@@ -60,3 +60,47 @@
 .main{
     background-color:rgb(68, 231, 68);
 }
+
+.inicio{ 
+    text-align: center;
+    display: flex;
+}
+
+.inicio__cover-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio__image-container{
+    max-width: 36rem;
+}
+
+.inicio__image{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.inicio__content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: black;
+    color:rgb(68, 231, 68);
+    gap: 0;
+    padding: 0 3rem;
+    max-width: 33rem;
+    margin: auto;
+}
+
+.inicio_title{
+    margin: 0;
+    width: 100%;
+}
+
+.inicio__description{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
