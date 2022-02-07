@@ -274,3 +274,27 @@
 .registro__aditional-text{
     color: white;
 }
+
+@media (max-width: 854px){
+    .inicio{ 
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .inicio__content{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        background-color: black;
+        color:rgb(68, 231, 68);
+        gap: 0;
+        padding: 0 3rem;
+        max-width: 33rem;
+        margin: auto;
+        margin: 0 1rem;
+        flex: 1;
+    }
+}
